@@ -29,6 +29,7 @@ export class HomeComponent {
     this.toastr.success(str, 'Success');
   }
 
+  
   startProgress(): void {
     this.progress = 0;
     this.show_progressBar = true;
