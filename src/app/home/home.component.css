@@ -1,0 +1,156 @@
+
+  
+  .container-main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .website-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  .website-heade-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .company-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .company-logo h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .nav-item:hover {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-icon {
+    margin-right: 20px;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .main-content-button {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .start-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-main p {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .progress-p{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 20px;
+  }
+
+  .progress-cont{
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+  }
+  .progress-bar{
+    background-color: #465def;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  }
+
+  .rotate-icon {
+   color: white;
+   font-size: 30px;
+  }
+  .progress-p-main{
+    width: 90%;
+  }
+  .color-progess{
+    background-color: #466def;
+  }
+  .arrowdiv{
+    position: absolute;
+    position: absolute;
+    top: -23px;
+    right: 20px;
+    background-color: #465def;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 4px;
+  }
+  rotate-icon1{
+    height: 16px;
+  }
+  .mat-icon{
+    height: 16px;
+  }
+  
+
+  

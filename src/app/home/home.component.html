@@ -1,0 +1,53 @@
+<div class="container-main">
+    <!-- Header -->
+    <header class="website-header">
+        <div class="website-heade-left">
+            <div class="company-logo">
+                <img src="" alt="AmpleLogic Logo">
+                <h2>AmpleLogic</h2>
+            </div>
+            <nav class="nav">
+                <div class="nav-item">Organization Structure</div>
+                <div class="nav-item">Configurations</div>
+                <div class="nav-item">Reports</div>
+                <div class="nav-item">ETL</div>
+            </nav>
+        </div>
+
+        <div class="user-section">
+            <div class="language-icon">🇺🇸</div>
+            <div class="user-profile">
+                <img src="" alt="User Profile" class="profile-icon">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content-button">
+        <button class="start-button" (click)="startProgress()">Start</button>
+    </main>
+    <!-- Footer -->
+     <div style="position: relative;">
+        <div class="arrowdiv" (click)="onUpClick()" *ngIf="progress > 0 && progress != 100">
+            <mat-icon class="rotate-icon1" aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_drop_up"></mat-icon>
+        </div>
+        <footer *ngIf="!show_progressBar" class="footer-main">
+            <p>AmpleLogic</p>
+            <p>Copyright © 2010-2023 AmpleLogic | All Rights Reserved</p>
+            <p>v3.1.0</p>
+        </footer>
+        <div class="progress-cont full-width" *ngIf="show_progressBar">
+            <div class="progress-bar">
+                <mat-icon class="rotate-icon" aria-hidden="false" aria-label="Example home icon" fontIcon="rocket"></mat-icon>
+            </div>
+            <div class="progress-p-main">
+                <div class="progress-p">
+                    <p>migrating data to selected.</p>
+                    <p>{{progress}}%</p>
+                </div>
+                <mat-progress-bar class="color-progess" color="blue" mode="determinate" [value]="progress"></mat-progress-bar>
+            </div>
+        </div>
+     </div>
+    
+</div>
